@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Tests"  >
+    <test name="Regression Tests">
+        <groups>
+            <define name="Regression">
+                <include name="Regression1"/>
+                <include name="Regression2"/>
+            </define>
+            <run>
+                <include name="Regression1"/>
+                <include name="Regression2"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="UserRegistration"/>
+        </classes>
+    </test>
+
+</suite>
