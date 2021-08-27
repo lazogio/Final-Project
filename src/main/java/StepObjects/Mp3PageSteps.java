@@ -39,11 +39,13 @@ public class Mp3PageSteps {
     }
     @Step("Cart Click")
     public Mp3PageSteps CartBtn(){
+        mp3Page.Cart.shouldBe(Condition.exist);
         mp3Page.Cart.click();
         return this;
     }
     @Step("CheckOut Button Click")
     public Mp3PageSteps CheckOutBtn(){
+        mp3Page.CheckOutBtn.shouldBe(Condition.exist);
         mp3Page.CheckOutBtn.click();
         return this;
     }
