@@ -6,7 +6,7 @@ public class SetUp {
     public SetUp(){
         Configuration.startMaximized = true;
         Configuration.holdBrowserOpen = true;
-        Configuration.timeout=5000;
+        Configuration.timeout=7000;
         open("http://tutorialsninja.com/demo/");
     }
     BasePageSteps basePageSteps= new BasePageSteps();
