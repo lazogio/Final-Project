@@ -14,5 +14,5 @@ public class Mp3Page {
     public SelenideElement Cart = $("#cart-total");
     public SelenideElement ExpectedSubTotal = $(byXpath("//div[@id = 'cart']//table[@class = 'table table-bordered']//strong[text() = 'Sub-Total']/parent::td/following-sibling::td"));
     public SelenideElement ExpectedTotal = $(byXpath("//div[@id = 'cart']//table[@class = 'table table-bordered']//strong[text() = 'Total']/parent::td/following-sibling::td"));
-    public SelenideElement CheckOutBtn = $("[class='text-right'] :nth-child(2)");
+    public SelenideElement CheckOutBtn = $(byXpath("//strong[text()=' Checkout']"));
 }

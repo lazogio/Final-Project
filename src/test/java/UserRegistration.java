@@ -28,6 +28,7 @@ public void setUser() throws SQLException {
             .SetAgreeBtn()
             .SetContinueBtn();
     }
+
     @Feature("LapTop And Notebook")
     @Story("LapTop And Notebook")
     @Description("Check Laptop And Notebook Price")
@@ -39,6 +40,7 @@ public void setUser() throws SQLException {
                 .ClickShowAll()
                 .SortBtn();
     }
+
     @Feature("Mp3 Page")
     @Story("Mp3 Page")
     @Description("Open Mp3 Page and Add for buy item,also Check Price")
@@ -55,6 +57,7 @@ public void setUser() throws SQLException {
                 .AddBtn()
                 .CheckPrice();
     }
+
     @Feature("Order Item")
     @Story("Order Item")
     @Description("Open CheckOut page and Fill Billing Information, Check Actual And Expected Price")
